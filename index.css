@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-post-preview {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.blog-post-preview img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog-post-preview h2 {
+  margin: 10px 0;
+}
+
+.blog-post-preview p {
+  margin: 5px 0;
+}
+
+.blog-post {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-post h1 {
+  margin: 20px 0;
+}
+
+.social-media-buttons a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0073b1;
+}
